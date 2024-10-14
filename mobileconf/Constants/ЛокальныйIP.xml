@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Constant uuid="45a7cd2e-7ba2-4a90-8fee-c91b4e395565">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ЛокальныйIP" category="Manager">
+				<xr:TypeId>e85ab94a-28a7-44fc-b130-428ccf5d9f53</xr:TypeId>
+				<xr:ValueId>1491c0df-f73a-46ea-9b5e-911d275e3081</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ЛокальныйIP" category="ValueManager">
+				<xr:TypeId>975b56a5-25da-4880-8c43-a5a2a283336c</xr:TypeId>
+				<xr:ValueId>9d8a5c9b-07ef-48fc-bc89-452d0f86bb0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ЛокальныйIP" category="ValueKey">
+				<xr:TypeId>b4a73624-e178-4d65-a0d1-74d3779ad711</xr:TypeId>
+				<xr:ValueId>053dd64c-8828-443a-a023-e0c9f62c10a6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЛокальныйIP</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Локальный IP</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>16</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format/>
+			<EditFormat/>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+	</Constant>
+</MetaDataObject>

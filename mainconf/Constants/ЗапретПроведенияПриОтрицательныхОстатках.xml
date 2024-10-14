@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Constant uuid="73bab2f8-5e76-4023-bd47-7af0d7d6f3f2">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ЗапретПроведенияПриОтрицательныхОстатках" category="Manager">
+				<xr:TypeId>b7d395c1-07a4-4c61-ae1c-a88a34bbf43e</xr:TypeId>
+				<xr:ValueId>4d226b25-ca15-476c-a47a-3eef49f1c996</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ЗапретПроведенияПриОтрицательныхОстатках" category="ValueManager">
+				<xr:TypeId>7f6c16e8-0106-45c9-82aa-7c55c9407f4d</xr:TypeId>
+				<xr:ValueId>4e546278-e07b-4943-832a-b72ca9832aec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ЗапретПроведенияПриОтрицательныхОстатках" category="ValueKey">
+				<xr:TypeId>812d98e3-b14a-4134-be3c-77db99d56ae1</xr:TypeId>
+				<xr:ValueId>f1f4d041-3bf8-4164-a211-ab671b674e89</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗапретПроведенияПриОтрицательныхОстатках</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запрет проведения при отрицательных остатках</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format/>
+			<EditFormat/>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+	</Constant>
+</MetaDataObject>

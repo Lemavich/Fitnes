@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="dfc8233e-783d-4766-afc4-d2a6fa6da462">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыНоменклатуры" category="Ref">
+				<xr:TypeId>9d64acdf-c59e-4c4b-99b1-007a975b7e31</xr:TypeId>
+				<xr:ValueId>a9beca45-ca58-4dfa-bb04-601811260917</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыНоменклатуры" category="Manager">
+				<xr:TypeId>f7363dcd-3cca-4277-9b41-59eebee086f8</xr:TypeId>
+				<xr:ValueId>44973872-3ded-4413-be97-8bc46a6ad5ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыНоменклатуры" category="List">
+				<xr:TypeId>1d20db42-0b5a-4215-b9eb-0224ae030145</xr:TypeId>
+				<xr:ValueId>ff41fb05-1a73-4861-8901-a6c47df53df4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыНоменклатуры</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы номенклатуры</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Order">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="7d1ec06e-47d7-4fcd-989d-966d100e2eda">
+				<Properties>
+					<Name>Товар</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товар</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5b9bd245-c20a-4519-aca2-b6edc1bbdd6d">
+				<Properties>
+					<Name>Услуга</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Услуга</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5a0c2682-5415-4529-9fcf-39c8c25f4a50">
+				<Properties>
+					<Name>Материал</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Материал</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="aad75e19-1757-4243-8e13-121e9ef8c5bc">
+				<Properties>
+					<Name>Абонемент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Абонемент</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

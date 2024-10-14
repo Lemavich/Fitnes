@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаВерх" id="101">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа верх</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа верх</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаВерхРасширеннаяПодсказка" id="102"/>
+			<ChildItems>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаЛюди" id="103">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа люди</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа люди</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЛюдиРасширеннаяПодсказка" id="104"/>
+			<ChildItems>
+				<InputField name="Сотрудник" id="13">
+					<DataPath>Объект.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СотрудникКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<InputField name="Клиент" id="10">
+					<DataPath>Объект.Контрагент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КлиентКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<LabelField name="ДокументОснование" id="7">
+			<DataPath>Объект.ДокументОснование</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<Hiperlink>true</Hiperlink>
+			<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="9"/>
+		</LabelField>
+		<UsualGroup name="ГруппаСередина" id="105">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа середина</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа середина</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСерединаРасширеннаяПодсказка" id="106"/>
+			<ChildItems>
+				<InputField name="Склад" id="16">
+					<DataPath>Объект.Склад</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СкладКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="Касса" id="98">
+					<DataPath>Объект.Касса</DataPath>
+					<Visible>false</Visible>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КассаКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="КассаРасширеннаяПодсказка" id="100"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<LabelField name="ПризнакОплаты" id="107">
+			<DataPath>Объект.ПризнакОплаты</DataPath>
+			<Visible>false</Visible>
+			<Hiperlink>true</Hiperlink>
+			<ContextMenu name="ПризнакОплатыКонтекстноеМеню" id="108"/>
+			<ExtendedTooltip name="ПризнакОплатыРасширеннаяПодсказка" id="109"/>
+		</LabelField>
+		<Pages name="Страницы" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="32"/>
+			<ChildItems>
+				<Page name="ГруппаТовары" id="57">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товары</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаТоварыРасширеннаяПодсказка" id="58"/>
+					<ChildItems>
+						<Table name="Товары" id="112">
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Товары</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТоварыКонтекстноеМеню" id="113"/>
+							<AutoCommandBar name="ТоварыКоманднаяПанель" id="114"/>
+							<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="115"/>
+							<SearchStringAddition name="ТоварыСтрокаПоиска" id="116">
+								<AdditionSource>
+									<Item>Товары</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыСтрокаПоискаКонтекстноеМеню" id="117"/>
+								<ExtendedTooltip name="ТоварыСтрокаПоискаРасширеннаяПодсказка" id="118"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТоварыСостояниеПросмотра" id="119">
+								<AdditionSource>
+									<Item>Товары</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыСостояниеПросмотраКонтекстноеМеню" id="120"/>
+								<ExtendedTooltip name="ТоварыСостояниеПросмотраРасширеннаяПодсказка" id="121"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТоварыУправлениеПоиском" id="122">
+								<AdditionSource>
+									<Item>Товары</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="123"/>
+								<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="124"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="AfterDeleteRow">ТоварыПослеУдаления</Event>
+								<Event name="OnChange">ТоварыНоменклатураПриИзменении</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ТоварыНомерСтроки" id="125">
+									<DataPath>Объект.Товары.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="126"/>
+									<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="127"/>
+								</LabelField>
+								<InputField name="ТоварыНоменклатура" id="128">
+									<DataPath>Объект.Товары.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="129"/>
+									<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="130"/>
+								</InputField>
+								<InputField name="ТоварыВидЦены" id="131">
+									<DataPath>Объект.Товары.ВидЦены</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТоварыВидЦеныКонтекстноеМеню" id="132"/>
+									<ExtendedTooltip name="ТоварыВидЦеныРасширеннаяПодсказка" id="133"/>
+									<Events>
+										<Event name="OnChange">ТоварыВидЦеныПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТоварыКоличество" id="134">
+									<DataPath>Объект.Товары.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Товары.TotalКоличество</FooterDataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="135"/>
+									<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="136"/>
+									<Events>
+										<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТоварыЦена" id="137">
+									<DataPath>Объект.Товары.Цена</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="138"/>
+									<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="139"/>
+									<Events>
+										<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТоварыСумма" id="140">
+									<DataPath>Объект.Товары.Сумма</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Товары.TotalСумма</FooterDataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="141"/>
+									<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="142"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаУслуги" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Услуги</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаУслугиРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<Table name="Услуги" id="143">
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Услуги</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="УслугиКонтекстноеМеню" id="144"/>
+							<AutoCommandBar name="УслугиКоманднаяПанель" id="145"/>
+							<ExtendedTooltip name="УслугиРасширеннаяПодсказка" id="146"/>
+							<SearchStringAddition name="УслугиСтрокаПоиска" id="147">
+								<AdditionSource>
+									<Item>Услуги</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УслугиСтрокаПоискаКонтекстноеМеню" id="148"/>
+								<ExtendedTooltip name="УслугиСтрокаПоискаРасширеннаяПодсказка" id="149"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="УслугиСостояниеПросмотра" id="150">
+								<AdditionSource>
+									<Item>Услуги</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УслугиСостояниеПросмотраКонтекстноеМеню" id="151"/>
+								<ExtendedTooltip name="УслугиСостояниеПросмотраРасширеннаяПодсказка" id="152"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="УслугиУправлениеПоиском" id="153">
+								<AdditionSource>
+									<Item>Услуги</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="УслугиУправлениеПоискомКонтекстноеМеню" id="154"/>
+								<ExtendedTooltip name="УслугиУправлениеПоискомРасширеннаяПодсказка" id="155"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="AfterDeleteRow">УслугиПослеУдаления</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="УслугиНомерСтроки" id="156">
+									<DataPath>Объект.Услуги.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УслугиНомерСтрокиКонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="УслугиНомерСтрокиРасширеннаяПодсказка" id="158"/>
+								</LabelField>
+								<InputField name="УслугиУслуга" id="159">
+									<DataPath>Объект.Услуги.Услуга</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УслугиУслугаКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="УслугиУслугаРасширеннаяПодсказка" id="161"/>
+									<Events>
+										<Event name="OnChange">УслугиУслугаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="УслугиВидЦены" id="162">
+									<DataPath>Объект.Услуги.ВидЦены</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УслугиВидЦеныКонтекстноеМеню" id="163"/>
+									<ExtendedTooltip name="УслугиВидЦеныРасширеннаяПодсказка" id="164"/>
+									<Events>
+										<Event name="OnChange">УслугиВидЦеныПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="УслугиЦена" id="202">
+									<DataPath>Объект.Услуги.Цена</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УслугиЦенаКонтекстноеМеню" id="203"/>
+									<ExtendedTooltip name="УслугиЦенаРасширеннаяПодсказка" id="204"/>
+									<Events>
+										<Event name="OnChange">УслугиЦенаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="УслугиКоличество" id="165">
+									<DataPath>Объект.Услуги.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Услуги.TotalКоличество</FooterDataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УслугиКоличествоКонтекстноеМеню" id="166"/>
+									<ExtendedTooltip name="УслугиКоличествоРасширеннаяПодсказка" id="167"/>
+									<Events>
+										<Event name="OnChange">УслугиКоличетсвоПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="УслугиСумма" id="168">
+									<DataPath>Объект.Услуги.Сумма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Услуги.TotalСумма</FooterDataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УслугиСуммаКонтекстноеМеню" id="169"/>
+									<ExtendedTooltip name="УслугиСуммаРасширеннаяПодсказка" id="170"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаАбонементы" id="110">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Абонементы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа абонементы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаАбонементыРасширеннаяПодсказка" id="111"/>
+					<ChildItems>
+						<Button name="СоздатьАбонементы" id="208">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СоздатьАбонементы</CommandName>
+							<ExtendedTooltip name="СоздатьАбонементыРасширеннаяПодсказка" id="209"/>
+						</Button>
+						<Table name="Абонементы" id="171">
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Абонементы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="АбонементыКонтекстноеМеню" id="172"/>
+							<AutoCommandBar name="АбонементыКоманднаяПанель" id="173"/>
+							<ExtendedTooltip name="АбонементыРасширеннаяПодсказка" id="174"/>
+							<SearchStringAddition name="АбонементыСтрокаПоиска" id="175">
+								<AdditionSource>
+									<Item>Абонементы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АбонементыСтрокаПоискаКонтекстноеМеню" id="176"/>
+								<ExtendedTooltip name="АбонементыСтрокаПоискаРасширеннаяПодсказка" id="177"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АбонементыСостояниеПросмотра" id="178">
+								<AdditionSource>
+									<Item>Абонементы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АбонементыСостояниеПросмотраКонтекстноеМеню" id="179"/>
+								<ExtendedTooltip name="АбонементыСостояниеПросмотраРасширеннаяПодсказка" id="180"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АбонементыУправлениеПоиском" id="181">
+								<AdditionSource>
+									<Item>Абонементы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АбонементыУправлениеПоискомКонтекстноеМеню" id="182"/>
+								<ExtendedTooltip name="АбонементыУправлениеПоискомРасширеннаяПодсказка" id="183"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="АбонементыНомерСтроки" id="184">
+									<DataPath>Объект.Абонементы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АбонементыНомерСтрокиКонтекстноеМеню" id="185"/>
+									<ExtendedTooltip name="АбонементыНомерСтрокиРасширеннаяПодсказка" id="186"/>
+								</LabelField>
+								<InputField name="АбонементыНоменклатура" id="187">
+									<DataPath>Объект.Абонементы.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АбонементыНоменклатураКонтекстноеМеню" id="188"/>
+									<ExtendedTooltip name="АбонементыНоменклатураРасширеннаяПодсказка" id="189"/>
+									<Events>
+										<Event name="OnChange">АбонементыНоменклатураПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="АбонементыАбонемент" id="190">
+									<DataPath>Объект.Абонементы.Абонемент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АбонементыАбонементКонтекстноеМеню" id="191"/>
+									<ExtendedTooltip name="АбонементыАбонементРасширеннаяПодсказка" id="192"/>
+								</InputField>
+								<InputField name="АбонементыКоличество" id="193">
+									<DataPath>Объект.Абонементы.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Абонементы.TotalКоличество</FooterDataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АбонементыКоличествоКонтекстноеМеню" id="194"/>
+									<ExtendedTooltip name="АбонементыКоличествоРасширеннаяПодсказка" id="195"/>
+								</InputField>
+								<InputField name="АбонементыВидЦены" id="205">
+									<DataPath>Объект.Абонементы.ВидЦены</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АбонементыВидЦеныКонтекстноеМеню" id="206"/>
+									<ExtendedTooltip name="АбонементыВидЦеныРасширеннаяПодсказка" id="207"/>
+								</InputField>
+								<InputField name="АбонементыЦена" id="196">
+									<DataPath>Объект.Абонементы.Сумма</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Абонементы.TotalСумма</FooterDataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АбонементыЦенаКонтекстноеМеню" id="197"/>
+									<ExtendedTooltip name="АбонементыЦенаРасширеннаяПодсказка" id="198"/>
+								</InputField>
+								<CheckBoxField name="АбонементыАктивировать" id="199">
+									<DataPath>Объект.Абонементы.Активировать</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="АбонементыАктивироватьКонтекстноеМеню" id="200"/>
+									<ExtendedTooltip name="АбонементыАктивироватьРасширеннаяПодсказка" id="201"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<LabelField name="СуммаДокумента" id="19">
+			<DataPath>Объект.СуммаДокумента</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СуммаДокументаКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="СуммаДокументаРасширеннаяПодсказка" id="21"/>
+		</LabelField>
+		<UsualGroup name="ГруппаНиз" id="87">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа низ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа низ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНизРасширеннаяПодсказка" id="88"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="22">
+					<DataPath>Объект.Комментарий</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<InputField name="Автор" id="25">
+					<DataPath>Объект.Ответственный</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="АвторКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.РеализацияТоваровИУслуг</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СоздатьАбонементы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать абонементы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать абонементы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьАбонементы</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>0</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>0</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>0</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>0</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>0</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>0</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.ЗаказыКлиентов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.ТоварыНаСкладах.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.УчетЗатрат.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccountingRegister.Хозрасчетный.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.17">
+	<Item id="2deb164a-b14a-4426-888d-de622b740fb2">
+		<Name>ОтЗнакомых</Name>
+		<Code>000000001</Code>
+		<Description>От знакомых</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b94a6a7d-c73a-4f99-a26a-206aef40342b">
+		<Name>РекламаВИнтернете</Name>
+		<Code>000000002</Code>
+		<Description>Реклама в интернете</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6ca57f37-5f29-46da-93ec-22f4ce8f3ba3">
+		<Name>РекламаВСоциальныхСетях</Name>
+		<Code>000000003</Code>
+		<Description>Реклама в социальных сетях</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e0ca9d54-8ca9-4772-813c-778cde9979e1">
+		<Name>РекламаУБлогеров</Name>
+		<Code>000000004</Code>
+		<Description>Реклама у блогеров</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

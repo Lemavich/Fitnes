@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<CommandsVisibility>
+		<Command name="0:6057e911-2600-00ef-c80a-84603a313d2b">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000a4d97800">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000a4d97800">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000a4d97800">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="0:0078da2c-dc38-6075-0000-0000a4d97800">
+			<CommandGroup>0078da2c-dc38-6075-0000-0000a0c91418</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000a0c91418">
+			<CommandGroup>0078da2c-dc38-6075-0000-0000a0c91418</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000a0c91418">
+			<CommandGroup>0078da2c-dc38-6075-0000-0000a0c91418</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000a0c91418">
+			<CommandGroup>0078da2c-dc38-6075-0000-0000a0c91418</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="0:0078da2c-dc38-6075-0000-0000a0c91418">
+			<CommandGroup>0078da2c-dc38-6075-0000-0000a0c91418</CommandGroup>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000c08d6218">
+			<CommandGroup>0078da2c-dc38-6075-0000-0000c08d6218</CommandGroup>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000e88d6218">
+			<CommandGroup>0078da2c-dc38-6075-0000-0000e88d6218</CommandGroup>
+		</Command>
+		<Command name="0:0078da2c-dc38-6075-0000-0000108e6218">
+			<CommandGroup>0078da2c-dc38-6075-0000-0000108e6218</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>0078da2c-dc38-6075-0000-0000108e6218</Group>
+	</GroupsOrder>
+</CommandInterface>
